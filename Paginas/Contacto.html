@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioSer TiendaNatural</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100;1,200&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="zona1">
+            <img class="logobioser" src="../Imagenes/Logo Bioser.jpeg" alt="LogoBioSer" height="180px" width="180px"> 
+        </div>
+        <div class="titulo">
+            <h1>BioSer</h1>
+        </div>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-success" >
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">INICIO</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                      <li class="nav-item" >
+                        <a class="nav-link active" aria-current="page" href="../Paginas/Nosotros.html">NOSOTROS</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Harinas</a></li>
+                          <li><a class="dropdown-item" href="#">Frutos Secos</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Semillas</a></li>
+                          <li><a class="dropdown-item" href="#">Legumbres</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Paginas/Contacto.html">CONTACTO</a>
+                          </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main class="container">
+      <form class="formulario">
+        <h3>DEJANOS TUS DATOS</h3>
+        <p>Nombre: <input type="text" name="Nombre"></p>
+        <p>Apellido: <input type="text" name="Apellido"></p> 
+        <p>Masculino: <input type="radio" name="sexo"> Femenino: <input type="radio" name="sexo"> Otro: <input type="radio" name="sexo"></p>
+        <p> Provincia: 
+          <select id="provincia" name="Provincia">
+            <option value="1">BUENOS AIRES</option>
+            <option value="2">CATAMARCA</option>
+            <option value="3">CORDOBA</option>
+            <option value="4">CORRIENTES</option>
+            <option value="5">CHACO</option>
+            <option value="6">CHUBUT</option>
+            <option value="7">ENTRE RIOS</option>
+            <option value="8">FORMOSA</option>
+            <option value="9">JUJUY</option>
+            <option value="10">LA PAMPA</option>
+            <option value="11">LA RIOJA</option>
+            <option value="12">MENDOZA</option>
+            <option value="13">MISIONES</option>
+            <option value="14">NEUQUEN</option>
+            <option value="15">RIO NEGRO</option>
+            <option value="16">SALTA</option>
+            <option value="17">SAN LUIS</option>
+            <option value="18">SAN JUAN</option>
+            <option value="19">SANTA CRUZ</option>
+            <option value="20">SANTA FE</option>
+            <option value="21">SANTIAGO DEL ESTERO</option>
+            <option value="22">TIERRA DEL FUEGO</option>
+            <option value="23">TUCUMAN</option>    
+          </select>
+        </p>
+        <p> Email: <input type="text" name="Email"></p>
+        <p>Teléfono: <input type="text" name="Telefono"></p> 
+        <p> Comentario: <br><textarea cols="35" rows="5"></textarea></p>
+        <p>Enviarme lista de precios: <input type="checkbox" name="listaprecios"></p> 
+        <input class="enviar" type="submit" value="Enviar">
+      </form>
+      <div class="contacto">
+         <p class="links"><a target="_blank" href="https://www.instagram.com/bioser_ok/"><img src="../Imagenes/Instagram.png" alt="logoinsta" height="85px" width="85px"></a></p>
+         <p class="links"><a target="_blank" href="https://api.whatsapp.com/send?phone=3364620890"><img src="../Imagenes/Whatsapp.png" alt="logowhats" height="85px" width="85px"></a></p> 
+         <p class="links"><a target="_blank" href="https://www.facebook.com/bioserokk/"><img src="../Imagenes/Facebook.png" alt="logoface" height="85px" width="85px"></a></p>    
+      </div>
+    </main>
+    <footer>
+      <img src="../Imagenes/Logo Bioser.jpeg" alt="Bioser" height="70" width="70">
+        <div class="footer1">
+        <li><em>Buenos habitos, buena vida</em></li>
+        <li><b>BioSer Tienda Natural</b></li>
+        <li> Since 2021 </li>
+        </div>
+      <img src="../Imagenes/Logo Bioser.jpeg" alt="Bioser" height="70" width="70">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

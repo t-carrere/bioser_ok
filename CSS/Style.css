@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(16,16,16,0.6), rgba(16,16,16, 0.6)), url(../Imagenes/Fondo1.png);
+    background-repeat: round;
+    background-size: contain;
+    
+}
+.zona1 , .titulo
+{
+    display: flex;
+    justify-content: center;
+}
+.zona1
+{
+    background-image: url(../Imagenes/Fondo\ Header.jpeg);
+    background-size: contain;
+    background-repeat:round;
+    border: 2px solid #0e0e0e;
+}
+
+.titulo
+{
+  background-color: #e0e0e0; 
+  border-bottom-left-radius:  8px;
+  border-bottom-right-radius: 8px;
+  border: 2px solid #0e0e0e;
+  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+		0 0 0.2em #87F;
+}
+.contacto
+{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.formulario 
+{
+    display: flex;
+    display: inline-block;
+    height: 620px;
+    width: 500px;
+    background-color: rgb(101,165,75);
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px black;
+}
+.container
+{
+display: flex;
+justify-content: space-around;
+padding: 30px;
+margin:100px;
+}
+h3
+{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+input , textarea
+{
+    padding: 5px;
+    
+}
+
+p
+{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+.links
+{
+    border: 20px solid rgb(101,165,75);
+    border-radius: 50%;
+    align-items: center;
+    box-shadow: 3px 3px 5px black;
+    
+}
+.links:hover
+{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+footer 
+    {
+    background-color: rgb(101,165,75);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    }
+.footer1
+    {
+    color: #0e0e0e;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    }
